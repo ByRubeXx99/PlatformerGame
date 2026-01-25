@@ -1,0 +1,549 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.3f1 (ef04196de0d6) revision 15664153'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-dimit" at "2026-01-25T12:58:47.2554568Z"
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'es' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-01-25T12:58:47Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/dimit/Desktop/unity1/PlatformerGame/Assets
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+54990
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/dimit/Desktop/unity1/PlatformerGame/Assets
+C:/Users/dimit/Desktop/unity1/PlatformerGame/Assets
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [26944]  Target information:
+
+Player connection [26944]  * "[IP] 192.168.1.28 [Port] 0 [Flags] 2 [Guid] 2408267425 [EditorId] 2408267425 [Version] 1048832 [Id] WindowsEditor(7,MSIKATANA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [26944] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [26944] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.3f1 (ef04196de0d6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/dimit/Desktop/unity1/PlatformerGame/Assets/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.9159
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              652a4b034f4843e5ae90543e46fb90b3
+  Correlation Id:          4b519f8aeb51f96c37e86b638b742d0f
+  External correlation Id: 2260495151785312953
+  Machine Id:              bo3Rc4WUyWZAhL34mPMHhIB9F58=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-dimit" (connect: 0.00s, validation: 0.00s, handshake: 0.87s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-dimit-notifications" at "2026-01-25T12:58:48.1330886Z"
+[Licensing::Module] Licensing Background thread has ended after 0.88s
+[Licensing::Module] Licensing is initialized (took 0.12s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 6872540394316-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.3f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.131841 seconds.
+- Loaded All Assemblies, in  0.534 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 172 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.546 seconds
+Domain Reload Profiling: 1078ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (176ms)
+	LoadAllAssembliesAndSetupDomain (155ms)
+		LoadAssemblies (136ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (137ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (546ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (515ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (267ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (115ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.256 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.344 seconds
+Domain Reload Profiling: 599ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (25ms)
+		LoadAssemblies (92ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (8ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (344ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (255ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (116ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (28.5 KB). Loaded Objects now: 655.
+Memory consumption went from 64.0 MB to 64.0 MB.
+Total: 4.015000 ms (FindLiveObjects: 0.040800 ms CreateObjectMapping: 0.006900 ms MarkObjects: 3.896300 ms  DeleteObjects: 0.070200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 248306.345488 seconds.
+  path: Packages/com.unity.multiplayer.center/package.json
+  artifactKey: Guid(df0857f6a11054383be91b1f8e1b5800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.multiplayer.center/package.json using Guid(df0857f6a11054383be91b1f8e1b5800) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3aede17a45dc3c807d4011b049db12f6') in 0.0171531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.409946 seconds.
+  path: Assets/kenney_platformer-pack-industrial/Vector/platformerPack_industrial_vector.svg
+  artifactKey: Guid(3e9122443b98f194f95ac55152d24799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/Vector/platformerPack_industrial_vector.svg using Guid(3e9122443b98f194f95ac55152d24799) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5f1b8bcde31c63aee013f21129ae377') in 0.0068129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.019731 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_001.png
+  artifactKey: Guid(8cff34b3a6fb20e409d1acbe51a02058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_001.png using Guid(8cff34b3a6fb20e409d1acbe51a02058) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9925eb0cbeaf9eb1121e6a8a7a835819') in 0.0799993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_037.png
+  artifactKey: Guid(40dfe47a37c67be4c9be046350664392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_037.png using Guid(40dfe47a37c67be4c9be046350664392) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e35d2bb4ca442393f2057e87c5cb6e67') in 0.0438281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_040.png
+  artifactKey: Guid(7db34cd4bd6a46b4ea2a113a935ed7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_040.png using Guid(7db34cd4bd6a46b4ea2a113a935ed7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05068990d255a2d2ee1abc70283ecc17') in 0.0561956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_049.png
+  artifactKey: Guid(4632e90a9260e1a49aa2036e809793ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_049.png using Guid(4632e90a9260e1a49aa2036e809793ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fa6d15e24e96608dac01116e65d655b') in 0.0238559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_039.png
+  artifactKey: Guid(587e3e92b588a5446a55e3cacc21f20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_039.png using Guid(587e3e92b588a5446a55e3cacc21f20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06fe628116293849ea9774ccf9928897') in 0.0397499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_004.png
+  artifactKey: Guid(6beb52df098b8e64fbd996ca83ae0666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_004.png using Guid(6beb52df098b8e64fbd996ca83ae0666) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2715df46256a7a83bb471dedee48c793') in 0.0463686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_053.png
+  artifactKey: Guid(782e6d75b94be69499877f594b7bcbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_053.png using Guid(782e6d75b94be69499877f594b7bcbdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d3ece0aef864381ae6daf68c918bb50') in 0.0196071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_012.png
+  artifactKey: Guid(a455af44501a13e4587801d17780f953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_012.png using Guid(a455af44501a13e4587801d17780f953) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31afd0280ef3e57ee71deb86e1dccbb5') in 0.045774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_055.png
+  artifactKey: Guid(8ac68a83e6bca9843a442152a33a9751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_055.png using Guid(8ac68a83e6bca9843a442152a33a9751) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2727da8b61c049c3708e9494d349d448') in 0.0199578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_024.png
+  artifactKey: Guid(7191e14ae6ba45e4eb438f11963fb420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_024.png using Guid(7191e14ae6ba45e4eb438f11963fb420) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '692b960a91d61325dd7477b01a908148') in 0.0196759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_045.png
+  artifactKey: Guid(754f4b35f55239d4f8bd792256e969cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_045.png using Guid(754f4b35f55239d4f8bd792256e969cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc45e4b516b82846895b629517150be7') in 0.0214413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_047.png
+  artifactKey: Guid(4a84a242f473eb04a9a5950c663bdbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_047.png using Guid(4a84a242f473eb04a9a5950c663bdbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a6bc6a50df57a0f9a11783225745281') in 0.0215034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_017.png
+  artifactKey: Guid(aea1dbe6d23db6b4b89104b1fab75c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_017.png using Guid(aea1dbe6d23db6b4b89104b1fab75c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96f10936a4fa8c864e5b129b9c135059') in 0.022635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_042.png
+  artifactKey: Guid(5fe40ddae5a43f14089dfcdf6debffe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_042.png using Guid(5fe40ddae5a43f14089dfcdf6debffe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1a65d4066933d7789048a8aa65d56ef') in 0.0230645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_013.png
+  artifactKey: Guid(73b346dd707c80741b22b368669254db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_013.png using Guid(73b346dd707c80741b22b368669254db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b893846cde211aa203200bad6e38899b') in 0.0196527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_016.png
+  artifactKey: Guid(6e7275291fc644a4aa3184cd661862d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_016.png using Guid(6e7275291fc644a4aa3184cd661862d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1813afa045aa32c8db869b9683138ba2') in 0.0217464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_034.png
+  artifactKey: Guid(9c9de3d7cc84a9e4fbbfa957aed5b0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_034.png using Guid(9c9de3d7cc84a9e4fbbfa957aed5b0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e56235c4832bc936c19e1eae6f925e5d') in 0.0220244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.153966 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_057.png
+  artifactKey: Guid(7bacca7ac5ca02a408eb351f8cd3cde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_057.png using Guid(7bacca7ac5ca02a408eb351f8cd3cde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '448e4cc3cbbfab1b8ba2973b67204b9b') in 0.0217498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_066.png
+  artifactKey: Guid(7c2918785ab80fc4f9427f58a133b5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_066.png using Guid(7c2918785ab80fc4f9427f58a133b5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aee3eb0ccb2b0e5e91baeb5347be7fba') in 0.0202273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_061.png
+  artifactKey: Guid(9e8f4ca23f3ce56439d6cd0ca4f93d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_061.png using Guid(9e8f4ca23f3ce56439d6cd0ca4f93d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '599319da0a4be12685c9787c3b4ea7ab') in 0.0184829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_070.png
+  artifactKey: Guid(2f4f0c0583fc6d2429106c7c05a36f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_070.png using Guid(2f4f0c0583fc6d2429106c7c05a36f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea85964844799038584765cbf7046a19') in 0.0221676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_076.png
+  artifactKey: Guid(f8573eaeb8b76fd47985ea8ecbf06fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_076.png using Guid(f8573eaeb8b76fd47985ea8ecbf06fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '364da75d20105de1d5c425065135327a') in 0.0234471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_071.png
+  artifactKey: Guid(b6666dc134fec3d4a86ea140b8482374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_071.png using Guid(b6666dc134fec3d4a86ea140b8482374) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '932c5ee865cbaf9dae060a4e84289d0a') in 0.0179005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_075.png
+  artifactKey: Guid(dd0dce74b2a50014882e51b18b31144f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Retina/platformIndustrial_075.png using Guid(dd0dce74b2a50014882e51b18b31144f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5edb5309f3b65ef264af147c2767fcc') in 0.0172754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.488839 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_001.png
+  artifactKey: Guid(b8af77634c2bb5d4781ac334dada1e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_001.png using Guid(b8af77634c2bb5d4781ac334dada1e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '085a5600834e793b296b7b3f789a32bd') in 0.0109247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_032.png
+  artifactKey: Guid(d81b92966f545fa4e9daa6906f55357b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_032.png using Guid(d81b92966f545fa4e9daa6906f55357b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c02e990bceff4d0dbb75715de84bb97') in 0.0155271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_048.png
+  artifactKey: Guid(92a9d0668cd7a0643921bd372053b137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_048.png using Guid(92a9d0668cd7a0643921bd372053b137) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30dd5a0db8d4a878338ad407c3047c72') in 0.0190256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_045.png
+  artifactKey: Guid(6766bad7c6345664697be2964898013a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_045.png using Guid(6766bad7c6345664697be2964898013a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec79d059e6fd54c431af69c08e30aa98') in 0.0063386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_031.png
+  artifactKey: Guid(d0f2bc58f4be09347a9713d201c0020c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_031.png using Guid(d0f2bc58f4be09347a9713d201c0020c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d232560757bcf37626d481e0b4ee981') in 0.0175377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_029.png
+  artifactKey: Guid(5b5632d2a31d0734299179ed47062b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_029.png using Guid(5b5632d2a31d0734299179ed47062b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5304bc8e30a6beef308fbaf8f7b9303b') in 0.0074807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_024.png
+  artifactKey: Guid(1116b5ba8ed94d64083c70888b98ed13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_024.png using Guid(1116b5ba8ed94d64083c70888b98ed13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46a2f9694753113b83dc60508d1d7649') in 0.0183836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_005.png
+  artifactKey: Guid(faf68576fb4938049b67833b2c8c9cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_005.png using Guid(faf68576fb4938049b67833b2c8c9cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa4d3057c70ad0952a828f93eabfab70') in 0.0214596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_022.png
+  artifactKey: Guid(6e0f1502a0fb675449e1aa446c066fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_022.png using Guid(6e0f1502a0fb675449e1aa446c066fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f469778256504e6f3e4d988293816209') in 0.0214964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_025.png
+  artifactKey: Guid(695a864d869e1dd4ba558ce973c1ae42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_025.png using Guid(695a864d869e1dd4ba558ce973c1ae42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47ccbf04a13eab09cd45807063462ad2') in 0.016258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_055.png
+  artifactKey: Guid(fad0b6ddc5999fb4ca15dd21a9ee07b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_055.png using Guid(fad0b6ddc5999fb4ca15dd21a9ee07b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b49fe6479f3d63f637d39fff92c3663') in 0.0182202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_007.png
+  artifactKey: Guid(e7719b3a1f10b334c81c1a6be5574d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_007.png using Guid(e7719b3a1f10b334c81c1a6be5574d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6b7894554920f678b151c044cee8490') in 0.0097292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_017.png
+  artifactKey: Guid(f6e85bb2952ed714aaef7b0c7dca4b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_017.png using Guid(f6e85bb2952ed714aaef7b0c7dca4b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7226377e6f3a34f942aafdac5394d12b') in 0.0192494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_052.png
+  artifactKey: Guid(3c6dc069d647d0746873c36fcb558693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_052.png using Guid(3c6dc069d647d0746873c36fcb558693) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70a3c7fefb6aa05579b7f58c618c730d') in 0.0175036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_023.png
+  artifactKey: Guid(3e3e57e24bc2ac4418afe22f8c8e14b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_platformer-pack-industrial/PNG/Default size/platformIndustrial_023.png using Guid(3e3e57e24bc2ac4418afe22f8c8e14b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '474a0612822bbe12d42509fc2ceb9f42') in 0.0244015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
