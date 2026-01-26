@@ -11,7 +11,7 @@ public class TitleManager : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            SceneManager.LoadScene("mapanou2");
+            SceneManager.LoadScene("MapaNou");
         }
     }
 }
