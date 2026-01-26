@@ -1524,6 +1524,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: plataforma
       objectReference: {fileID: 0}
+    - target: {fileID: 7463196418433165484, guid: c5d186d23c8342247805f22f9f6be60a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2055,7 +2060,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a65ae68fa98f6f24eb1e0ced85539892, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::updatescore
-  score: 0
+  Score: 0
 --- !u!4 &1516336801 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1320736511707901435, guid: c5d186d23c8342247805f22f9f6be60a,

@@ -2,28 +2,24 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class ScoreUpdate : MonoBehaviour
-{
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    
-    private Text punts;
-
+{   
+    private Text Points;
    private  void  Awake()
    {
-        punts = GetComponent<Text>();  //agafem el component de text del joc "ui score"
+        Points= GetComponent<Text>();
    }
 
     private void OnEnable()
     {
-        updatescore.actualitzar += puntspantalla;
+        UpdateScore.Update += ScreenPoints;
     }
     private void OnDisable()
     {
-        updatescore.actualitzar -= puntspantalla;
-    } 
-
-    private void puntspantalla(int puntss)
+        UpdateScore.Update -= ScreenPoints;
+    }
+    private void ScreenPoints(int points)
     {
-        punts.text =puntss.ToString();
+        Points.text =points.ToString();
     }
 
 }

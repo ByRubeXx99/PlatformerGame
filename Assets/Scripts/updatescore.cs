@@ -1,27 +1,23 @@
 using System;
 using UnityEngine;
 
-public class updatescore : MonoBehaviour
+public class UpdateScore : MonoBehaviour
 {
-    
-    public int score; 
+    public int Score; 
 
-    public static event Action <int> actualitzar;
-
+    public static event Action <int> Update;
     private void OnEnable()
     {
-        coin.coinrecollit += UpdateScore;
-        
+        coin.CoinPickUp += Updatescore;
     }
     private void OnDisable()
     {
-        coin.coinrecollit -= UpdateScore;
+        coin.CoinPickUp -= Updatescore;
     }
-
-    private void UpdateScore(coin coin)
+    private void Updatescore(coin coin)
     {
-        score += coin.CoinValue;  
-        actualitzar?.Invoke(score);
+        Score += coin.CoinValue;  
+        Update?.Invoke(Score);
     }
 
 }

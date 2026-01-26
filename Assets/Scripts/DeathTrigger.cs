@@ -11,10 +11,8 @@ public class DeathTrigger : MonoBehaviour
     {
         Die();
     }
-
     private void Die()
     {
-        // Invoke any method subscribed to the OnDeath event
         OnDeath?.Invoke();
     }
 }
