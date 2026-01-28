@@ -4,11 +4,10 @@ using UnityEngine.UI;
 public class ScoreUpdate : MonoBehaviour
 {   
     private Text Points;
-   private  void  Awake()
-   {
+    private  void  Awake()
+    {
         Points= GetComponent<Text>();
-   }
-
+    }
     private void OnEnable()
     {
         UpdateScore.Update += ScreenPoints;
@@ -19,7 +18,6 @@ public class ScoreUpdate : MonoBehaviour
     }
     private void ScreenPoints(int points)
     {
-        Points.text =points.ToString();
+        Points.text = points.ToString();
     }
-
 }

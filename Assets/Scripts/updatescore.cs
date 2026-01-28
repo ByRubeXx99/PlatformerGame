@@ -4,7 +4,6 @@ using UnityEngine;
 public class UpdateScore : MonoBehaviour
 {
     public int Score; 
-
     public static event Action <int> Update;
     private void OnEnable()
     {
@@ -18,6 +17,6 @@ public class UpdateScore : MonoBehaviour
     {
         Score += coin.CoinValue;  
         Update?.Invoke(Score);
+        GameData.TotalScore = Score;
     }
-
 }
