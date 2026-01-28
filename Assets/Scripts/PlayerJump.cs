@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerJump : MonoBehaviour
 {
+    public PlayerSoundController playerSoundController;
     public float JumpHeight;
     public float DistanceToMaxHeight;
     public float SpeedHorizontal;
@@ -39,6 +40,7 @@ public class PlayerJump : MonoBehaviour
         var velocity = new Vector2(rb.linearVelocity.x, GetJumpForce());
         rb.linearVelocity = velocity;
         jumpStartedTime = Time.time;
+        playerSoundController.playJump();
     }
 
     public void OnJumpFinished()
