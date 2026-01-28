@@ -50,6 +50,6 @@ public class TitleManager : MonoBehaviour
     private void StartGame(InputAction.CallbackContext context)
     {
         if (!canInput) return;
-        SceneManager.LoadScene("MapaNou");
+        SceneManager.LoadScene("Gameplay");
     }
 }
