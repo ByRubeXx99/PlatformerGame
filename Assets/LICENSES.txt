@@ -1,7 +1,6 @@
 Place here all the licenses for your assets:
 
 UI:
-
 	UI Pack (2.0)
 
 	Created/distributed by Kenney (www.kenney.nl)
@@ -24,7 +23,6 @@ UI:
 	http://twitter.com/KenneyNL
 
 Assets:
-
 	Platformer Pack: Industrial
 
 	by  Kenney Vleugels (Kenney.nl)
@@ -57,6 +55,7 @@ LiberationSans Font:
     -----------------------------------------------------------
     SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
     -----------------------------------------------------------
+
 Sprites:
 	Platformer Pack: Industrial
 
@@ -77,5 +76,13 @@ Sprites:
 
 	Follow on Twitter for updates:
 	@KenneyNL
+
 Icon:
-	Autor/Fuente: Generado por IA (Google Gemini) Licencia: CC0 1.0 Universal (Dominio Público)
+	Font: AI Generated (Google Gemini) License: CC0 1.0 Universal (Public Domain)
+
+Sounds & Music:
+	sunixMuz - bizarre Place (FREE CCBY) by SunixMuz -- https://freesound.org/s/767856/ -- License: Attribution 4.0
+	Jump_C_04 by cabled_mess -- https://freesound.org/s/350906/ -- License: Creative Commons 0
+	Coin Sound by Rubén Marín is marked CC0 1.0
+
+

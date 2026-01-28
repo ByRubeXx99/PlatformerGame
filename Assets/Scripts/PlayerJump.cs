@@ -2,10 +2,20 @@ using UnityEngine;
 
 public class PlayerJump : MonoBehaviour
 {
+<<<<<<< HEAD
     public float JumpHeight = 5f;
     public float DistanceToMaxHeight = 4f;
     public float SpeedHorizontal = 8f;
     public float PressTimeToMaxJump = 0.2f;
+=======
+    public PlayerSoundController playerSoundController;
+    public float JumpHeight;
+    public float DistanceToMaxHeight;
+    public float SpeedHorizontal;
+    public float PressTimeToMaxJump;
+    public float WallSlideSpeed = 1;
+    public ContactFilter2D filter;
+>>>>>>> 5928afc8a7cf7271cb54325bf90cac31f47343b0
 
     public LayerMask GroundLayers;
     public Transform GroundCheck;
@@ -39,6 +49,7 @@ public class PlayerJump : MonoBehaviour
 
     public void OnJumpStarted()
     {
+<<<<<<< HEAD
         if (isGrounded || IsWallSliding)
         {
             isJumping = true;
@@ -48,6 +59,13 @@ public class PlayerJump : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             jumpStartedTime = Time.time;
         }
+=======
+        SetGravity(); 
+        var velocity = new Vector2(rb.linearVelocity.x, GetJumpForce());
+        rb.linearVelocity = velocity;
+        jumpStartedTime = Time.time;
+        playerSoundController.playJump();
+>>>>>>> 5928afc8a7cf7271cb54325bf90cac31f47343b0
     }
 
     public void OnJumpFinished()
